@@ -35,9 +35,15 @@ public void verNotas() {
 }
  @Override
  public void registrar() {
-    System.out.println("Registro de alumno:");
+    System.out.println("Registro de alumno:  Clase hija");
     System.out.println("Número de carnet: " + nCarnet);
     System.out.println("Encargado: " + encargado);
+ }
+ @Override
+ public void imprimir() {
+    // TODO Auto-generated method stub
+    System.out.println("Imprimiendo datos del alumno: " );
+    
  }
 
 }

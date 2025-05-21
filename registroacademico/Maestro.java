@@ -27,5 +27,16 @@ public void pasarLista() {
     // Aquí se puede implementar la lógica para pasar lista
     // Por ejemplo, se puede imprimir una lista de alumnos o enviar un correo electrónico.
 }
-
+@Override
+public void modificar() {
+    System.out.println("Modificación de maestro: Clase hija");
+    System.out.println("Número de DUI: " + dui);
+    System.out.println("Grados: " + grados);
+}
+@Override
+ public void imprimir() {
+    // TODO Auto-generated method stub
+    System.out.println("Imprimiendo datos del maestro: " );
+    
+ }
 }
