@@ -22,5 +22,10 @@ public String getGrados() {
 public void setGrados(String grados) {
     this.grados = grados;
 }
+public void pasarLista() {
+    System.out.println("Pasar lista del maestro " + getNombre() + ":");
+    // Aquí se puede implementar la lógica para pasar lista
+    // Por ejemplo, se puede imprimir una lista de alumnos o enviar un correo electrónico.
+}
 
 }
