@@ -1,5 +1,6 @@
 import registroacademico.Alumno;
 import registroacademico.DatoGeneral;
+import registroacademico.ISearch;
 import registroacademico.Maestro;
 public class Main {
 public static void main(String[] args) {
@@ -15,6 +16,11 @@ public static void main(String[] args) {
     maestro.setDireccion("Calle 456");
     maestro.registrar();
     maestro.modificar();
+} 
+public static void ver (ISearch iSearch) {
+    iSearch.obtenerPotId(1);
+    iSearch.obtenerTodos();
 
 }
 }
+
